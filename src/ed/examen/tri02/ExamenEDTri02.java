@@ -1,5 +1,7 @@
 package ed.examen.tri02;
 
+//Enlace gitHub: https://github.com/VTejedor803/ExamenED
+
 /**
  * Una clase para determinar el valor máximo de un array de enteros
  * @author Victor Tejedor Rivas
