@@ -1,10 +1,10 @@
 package ed.examen.tri02;
 
-//Enlace gitHub: https://github.com/VTejedor803/ExamenED
 
 /**
  * Una clase para determinar el valor máximo de un array de enteros
  * @author Victor Tejedor Rivas
+ * @see gitHub: https://github.com/VTejedor803/ExamenED
  */
 public class ExamenEDTri02
 {
@@ -14,7 +14,7 @@ public class ExamenEDTri02
     public static int TAMAÑOMAXIMO = 100;
 
     /** 
-     * Crea una fecha a partir del día, mes y año.
+     * 
      * @param listaEnteros Un array de enteros 
      * @return devuelve el mayor valor de un array de enteros.
      */
