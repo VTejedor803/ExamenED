@@ -20,8 +20,8 @@ public class ExamenEDTri02Test {
      * @throws java.lang.Exception
      */
     @Test
-    public void arrayVacio() {
-        System.out.println("Test para el método testElMayorDe(). Vamos a comprobar el camino 1, donde listaEnteros.length es null");
+    public void testElMayorDeArrayVacio() {
+        System.out.println("Test 1 para el método elMayorDe(). Vamos a comprobar el camino 1, donde listaEnteros.length es null");
         
         try {
         int[] listaEnteros = null;
@@ -29,6 +29,7 @@ public class ExamenEDTri02Test {
         }
         catch (Exception e) {
             System.out.println("->" + e.getMessage());
+            // assertEquals("mensaje si falla", respuestaEsperada, respuestaRecibida)
             assertTrue(true);
         }
     }
@@ -40,8 +41,8 @@ public class ExamenEDTri02Test {
      * @throws java.lang.Exception
      */
     @Test
-    public void arrayDemasiadoGrande() {
-        System.out.println("Test para el método testElMayorDe(). Vamos a comprobar el camino 2, donde listaEnteros.length > 100.");
+    public void TestElMayorDeArrayDemasiadoGrande() {
+        System.out.println("Test 2 para el método testElMayorDe(). Vamos a comprobar el camino 2, donde listaEnteros.length > 100.");
         
         try {
         int[] listaEnteros = new int[101];
@@ -61,8 +62,8 @@ public class ExamenEDTri02Test {
      * @throws java.lang.Exception
      */
     @Test
-    public void arrayDeTamañoValido() {
-        System.out.println("Test para el método testElMayorDe(). Vamos a comprobar el camino 3, donde listaEnteros.length esta comprendido entre 0 y 100");
+    public void ElMayorDeArrayDeTamañoValido() {
+        System.out.println("Test 3 para el método testElMayorDe(). Vamos a comprobar el camino 3, donde listaEnteros.length esta comprendido entre 0 y 100");
         
         try {
         int[] listaEnteros = new int[50];
@@ -75,6 +76,8 @@ public class ExamenEDTri02Test {
         }
         catch (Exception e) {
             System.out.println("->" + e.getMessage());
-        }
+        
+            
+            
     }
 }
